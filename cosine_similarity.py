@@ -1,12 +1,11 @@
 import re, math
 from collections import Counter
 import fuzzywuzzy.fuzz
-from rake_nltk import Rake
 import nltk
 from nltk.corpus import wordnet
 #import PyDictionary
 from nltk.stem import WordNetLemmatizer,PorterStemmer
-from appJar import gui
+
 WORD = re.compile(r'\w+')
 
 
